@@ -5,7 +5,7 @@
 
 # https://learn.microsoft.com/azure/devops/pipelines/ecosystems/android
 pool:
-  vmImage: 'macOS-latest'
+  vmImage: ubuntu-latest
 
 steps:
 - task: Gradle@3
